@@ -10,4 +10,5 @@ glean/schema/hs
 glean/schema/thrift
 glean/schema/v[0-9]*
 glean/lang/java-lsif/tests/cases/xrefs/target
+glean/lang/java-lsif/tests/scip/cases/xrefs/target
 dump.lsif

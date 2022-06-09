@@ -1,0 +1,223 @@
+[
+  "@generated",
+  {
+    "key": {
+      "defn": {
+        "key": {
+          "file": {
+            "key": {
+              "file": { "key": "src/main/java/com/glean/app/App.java" },
+              "language": 22
+            }
+          },
+          "range": {
+            "key": {
+              "range": {
+                "lineBegin": 6,
+                "columnBegin": 14,
+                "lineEnd": 6,
+                "columnEnd": 16
+              },
+              "text": { "key": "App" }
+            }
+          }
+        }
+      },
+      "hover": {
+        "key": { "text": { "key": " Hello world!\u000a" }, "language": 56 }
+      }
+    }
+  },
+  {
+    "key": {
+      "defn": {
+        "key": {
+          "file": {
+            "key": {
+              "file": { "key": "src/main/java/com/glean/app/App.java" },
+              "language": 22
+            }
+          },
+          "range": {
+            "key": {
+              "range": {
+                "lineBegin": 6,
+                "columnBegin": 14,
+                "lineEnd": 6,
+                "columnEnd": 16
+              },
+              "text": { "key": "App" }
+            }
+          }
+        }
+      },
+      "hover": {
+        "key": {
+          "text": { "key": "```java\u000apublic class App\u000a```" },
+          "language": 56
+        }
+      }
+    }
+  },
+  {
+    "key": {
+      "defn": {
+        "key": {
+          "file": {
+            "key": {
+              "file": { "key": "src/main/java/com/glean/app/App.java" },
+              "language": 22
+            }
+          },
+          "range": {
+            "key": {
+              "range": {
+                "lineBegin": 9,
+                "columnBegin": 26,
+                "lineEnd": 9,
+                "columnEnd": 32
+              },
+              "text": { "key": "App#message" }
+            }
+          }
+        }
+      },
+      "hover": {
+        "key": {
+          "text": {
+            "key": "```java\u000aprivate final String message\u000a```"
+          },
+          "language": 56
+        }
+      }
+    }
+  },
+  {
+    "key": {
+      "defn": {
+        "key": {
+          "file": {
+            "key": {
+              "file": { "key": "src/main/java/com/glean/app/App.java" },
+              "language": 22
+            }
+          },
+          "range": {
+            "key": {
+              "range": {
+                "lineBegin": 11,
+                "columnBegin": 12,
+                "lineEnd": 11,
+                "columnEnd": 14
+              },
+              "text": { "key": "App#`<init>`()" }
+            }
+          }
+        }
+      },
+      "hover": {
+        "key": {
+          "text": { "key": "```java\u000apublic App()\u000a```" },
+          "language": 56
+        }
+      }
+    }
+  },
+  {
+    "key": {
+      "defn": {
+        "key": {
+          "file": {
+            "key": {
+              "file": { "key": "src/main/java/com/glean/app/App.java" },
+              "language": 22
+            }
+          },
+          "range": {
+            "key": {
+              "range": {
+                "lineBegin": 13,
+                "columnBegin": 24,
+                "lineEnd": 13,
+                "columnEnd": 27
+              },
+              "text": { "key": "App#main()" }
+            }
+          }
+        }
+      },
+      "hover": {
+        "key": {
+          "text": {
+            "key": "```java\u000apublic static void main(String[] args)\u000a```"
+          },
+          "language": 56
+        }
+      }
+    }
+  },
+  {
+    "key": {
+      "defn": {
+        "key": {
+          "file": {
+            "key": {
+              "file": { "key": "src/main/java/com/glean/app/App.java" },
+              "language": 22
+            }
+          },
+          "range": {
+            "key": {
+              "range": {
+                "lineBegin": 13,
+                "columnBegin": 38,
+                "lineEnd": 13,
+                "columnEnd": 41
+              },
+              "text": { "key": "" }
+            }
+          }
+        }
+      },
+      "hover": {
+        "key": {
+          "text": { "key": "```java\u000aString[] args\u000a```" },
+          "language": 56
+        }
+      }
+    }
+  },
+  {
+    "key": {
+      "defn": {
+        "key": {
+          "file": {
+            "key": {
+              "file": { "key": "src/main/java/com/glean/app/App.java" },
+              "language": 22
+            }
+          },
+          "range": {
+            "key": {
+              "range": {
+                "lineBegin": 17,
+                "columnBegin": 26,
+                "lineEnd": 17,
+                "columnEnd": 35
+              },
+              "text": { "key": "App#getMessage()" }
+            }
+          }
+        }
+      },
+      "hover": {
+        "key": {
+          "text": {
+            "key": "```java\u000aprivate final String getMessage()\u000a```"
+          },
+          "language": 56
+        }
+      }
+    }
+  }
+]

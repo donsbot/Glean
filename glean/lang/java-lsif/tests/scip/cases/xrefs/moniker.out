@@ -1,0 +1,38 @@
+[
+  "@generated",
+  {
+    "key": {
+      "kind": 0,
+      "scheme": { "key": "semanticdb" },
+      "ident": { "key": "semanticdb maven . . com/glean/app/App#" }
+    }
+  },
+  {
+    "key": {
+      "kind": 0,
+      "scheme": { "key": "semanticdb" },
+      "ident": { "key": "semanticdb maven . . com/glean/app/App#`<init>`()." }
+    }
+  },
+  {
+    "key": {
+      "kind": 0,
+      "scheme": { "key": "semanticdb" },
+      "ident": { "key": "semanticdb maven . . com/glean/app/App#getMessage()." }
+    }
+  },
+  {
+    "key": {
+      "kind": 0,
+      "scheme": { "key": "semanticdb" },
+      "ident": { "key": "semanticdb maven . . com/glean/app/App#main()." }
+    }
+  },
+  {
+    "key": {
+      "kind": 0,
+      "scheme": { "key": "semanticdb" },
+      "ident": { "key": "semanticdb maven . . com/glean/app/App#message." }
+    }
+  }
+]

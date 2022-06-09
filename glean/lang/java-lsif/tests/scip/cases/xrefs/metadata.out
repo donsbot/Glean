@@ -1,0 +1,14 @@
+[
+  "@generated",
+  {
+    "key": {
+      "lsifVersion": "UnspecifiedProtocolVersion",
+      "positionEncoding": "UTF8",
+      "toolInfo": {
+        "toolName": "scip-java",
+        "toolArgs": [ ],
+        "version": "0.8.0-RC2"
+      }
+    }
+  }
+]

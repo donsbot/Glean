@@ -122,7 +122,7 @@
                 "attributes": [
                     {
                         "attribute": {
-                            "aInteger": 8
+                            "aInteger": 15
                         },
                         "key": "symbolKind"
                     },
@@ -254,7 +254,7 @@
                 "attributes": [
                     {
                         "attribute": {
-                            "aInteger": 8
+                            "aInteger": 15
                         },
                         "key": "symbolKind"
                     },

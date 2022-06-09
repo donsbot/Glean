@@ -30,11 +30,8 @@ import Control.Monad.Extra ( concatMapM )
 import Control.Monad.State.Strict
 import Data.Aeson
 import Data.Aeson.Types ( Pair )
-import Data.List
-import Data.List.Split
+
 import Data.Maybe ( catMaybes, fromMaybe, listToMaybe, mapMaybe )
-import Data.HashMap.Strict ( HashMap )
-import qualified Data.HashMap.Strict as HashMap
 import qualified Data.IntMap.Strict as IMap
 import Data.Text ( Text )
 import qualified Data.Text as Text
@@ -44,6 +41,7 @@ import qualified Data.Vector.Unboxed as U
 import Data.LSIF.Types
 import Data.LSIF.Moniker
 import Data.LSIF.Env
+import Data.LSIF.Gen
 import Data.LSIF.JSON ({- instances -})
 
 -- | Given a hashmap keyed by predicate names, emit an array of json pred/facts
@@ -476,11 +474,11 @@ generateMonikerFacts :: Id -> Id -> Parse (Maybe Value)
 generateMonikerFacts fileId defRangeId = do
   mId <- withResultSet defRangeId getMonikerId (pure . Just)
   pure $ pure $ object $ pure $ key $
-    [ "defn" .= (object . pure . key)
+    ( "defn" .= (object . pure . key)
         [ "file" .= fileId
         , "range" .= defRangeId
         ]
-    ] ++
+    ) :
     (case mId of
         Nothing -> []
         Just monikerId -> [ "moniker" .= monikerId ]
@@ -522,39 +520,6 @@ withResultSet id f g = do
 -- JSON-generating utilities
 --
 
-predicate :: Applicative f => Text -> [Pair] -> f [Predicate]
-predicate name facts = pure [Predicate name [object [key facts]]]
-
-predicateId :: Applicative f => Text -> Id -> [Pair] -> f [Predicate]
-predicateId name id_ facts =
-  pure [Predicate name [object [factId id_, key facts ]]]
-
--- LSIF ranges are 0-indexed, exclusive of end col.
--- We want to store as Glean ranges, 1-indexed, inclusive of end col.
-toRange :: Range -> Value
-toRange Range{..} =
-  let colBegin = character start + 1
-       -- n.b. end col should be _inclusive_ of end, and >= col start
-      colEnd = max colBegin ((character end + 1) - 1)
-  in
-    object [
-      "lineBegin" .= (line start + 1),
-      "columnBegin" .= colBegin,
-      "lineEnd" .= (line end + 1),
-      "columnEnd" .= colEnd
-    ]
-
-key :: KeyValue kv => [Pair] -> kv
-key xs = "key" .= object xs
-
-factId :: KeyValue kv => Id -> kv
-factId (Id id_) = "id" .= id_
-
-string :: Text -> Value
-string s = object [ "key" .= s ]
-
-text :: Text -> Value
-text = String
 
 -- | Identifier text string
 toName :: Tag -> Value

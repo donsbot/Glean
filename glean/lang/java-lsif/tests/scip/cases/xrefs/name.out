@@ -1,0 +1,13 @@
+[
+  "@generated",
+  { "key": "" },
+  { "key": "App" },
+  { "key": "App#`<init>`()" },
+  { "key": "App#getMessage()" },
+  { "key": "App#main()" },
+  { "key": "App#message" },
+  { "key": "PrintStream#println(+8)" },
+  { "key": "String" },
+  { "key": "System" },
+  { "key": "System#out" }
+]

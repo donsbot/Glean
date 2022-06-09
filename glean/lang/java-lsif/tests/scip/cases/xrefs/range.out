@@ -1,0 +1,168 @@
+[
+  "@generated",
+  {
+    "key": {
+      "range": {
+        "lineBegin": 6,
+        "columnBegin": 14,
+        "lineEnd": 6,
+        "columnEnd": 16
+      },
+      "text": { "key": "App" }
+    }
+  },
+  {
+    "key": {
+      "range": {
+        "lineBegin": 9,
+        "columnBegin": 19,
+        "lineEnd": 9,
+        "columnEnd": 24
+      },
+      "text": { "key": "String" }
+    }
+  },
+  {
+    "key": {
+      "range": {
+        "lineBegin": 9,
+        "columnBegin": 26,
+        "lineEnd": 9,
+        "columnEnd": 32
+      },
+      "text": { "key": "App#message" }
+    }
+  },
+  {
+    "key": {
+      "range": {
+        "lineBegin": 11,
+        "columnBegin": 12,
+        "lineEnd": 11,
+        "columnEnd": 14
+      },
+      "text": { "key": "App#`<init>`()" }
+    }
+  },
+  {
+    "key": {
+      "range": {
+        "lineBegin": 13,
+        "columnBegin": 24,
+        "lineEnd": 13,
+        "columnEnd": 27
+      },
+      "text": { "key": "App#main()" }
+    }
+  },
+  {
+    "key": {
+      "range": {
+        "lineBegin": 13,
+        "columnBegin": 29,
+        "lineEnd": 13,
+        "columnEnd": 34
+      },
+      "text": { "key": "String" }
+    }
+  },
+  {
+    "key": {
+      "range": {
+        "lineBegin": 13,
+        "columnBegin": 38,
+        "lineEnd": 13,
+        "columnEnd": 41
+      },
+      "text": { "key": "" }
+    }
+  },
+  {
+    "key": {
+      "range": {
+        "lineBegin": 14,
+        "columnBegin": 9,
+        "lineEnd": 14,
+        "columnEnd": 14
+      },
+      "text": { "key": "System" }
+    }
+  },
+  {
+    "key": {
+      "range": {
+        "lineBegin": 14,
+        "columnBegin": 16,
+        "lineEnd": 14,
+        "columnEnd": 18
+      },
+      "text": { "key": "System#out" }
+    }
+  },
+  {
+    "key": {
+      "range": {
+        "lineBegin": 14,
+        "columnBegin": 20,
+        "lineEnd": 14,
+        "columnEnd": 26
+      },
+      "text": { "key": "PrintStream#println(+8)" }
+    }
+  },
+  {
+    "key": {
+      "range": {
+        "lineBegin": 14,
+        "columnBegin": 32,
+        "lineEnd": 14,
+        "columnEnd": 34
+      },
+      "text": { "key": "App#`<init>`()" }
+    }
+  },
+  {
+    "key": {
+      "range": {
+        "lineBegin": 14,
+        "columnBegin": 38,
+        "lineEnd": 14,
+        "columnEnd": 47
+      },
+      "text": { "key": "App#getMessage()" }
+    }
+  },
+  {
+    "key": {
+      "range": {
+        "lineBegin": 17,
+        "columnBegin": 19,
+        "lineEnd": 17,
+        "columnEnd": 24
+      },
+      "text": { "key": "String" }
+    }
+  },
+  {
+    "key": {
+      "range": {
+        "lineBegin": 17,
+        "columnBegin": 26,
+        "lineEnd": 17,
+        "columnEnd": 35
+      },
+      "text": { "key": "App#getMessage()" }
+    }
+  },
+  {
+    "key": {
+      "range": {
+        "lineBegin": 18,
+        "columnBegin": 16,
+        "lineEnd": 18,
+        "columnEnd": 22
+      },
+      "text": { "key": "App#message" }
+    }
+  }
+]

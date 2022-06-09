@@ -197,7 +197,7 @@
                 {
                     "attributes": {
                         "symbolKind": {
-                            "aInteger": 8
+                            "aInteger": 15
                         },
                         "symbolLanguage": {
                             "aInteger": 5
@@ -224,6 +224,56 @@
                         "repository": "test"
                     }
                 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            ],
+            "6": [
+                {
+                    "attributes": {
+                        "symbolKind": {
+                            "aInteger": 7
+                        },
+                        "symbolLanguage": {
+                            "aInteger": 5
+                        },
+                        "symbolSignature": {
+                            "aString": "```java\npublic class App\n```\n---\n Hello world!\n\n"
+                        }
+                    },
+                    "range": {
+                        "columnBegin": 14,
+                        "columnEnd": 17,
+                        "lineBegin": 6,
+                        "lineEnd": 6
+                    },
+                    "sym": "test/java/lsif/com/glean/app/App"
+                }
+            ],
+            "9": [
+                {
+                    "attributes": {
+                        "symbolKind": {
+                            "aInteger": 15
+                        },
+                        "symbolLanguage": {
+                            "aInteger": 5
+                        },
+                        "symbolSignature": {
+                            "aString": "```java\nprivate final String message\n```"
+                        }
+                    },
+                    "range": {
+                        "columnBegin": 26,
+                        "columnEnd": 33,
+                        "lineBegin": 9,
+                        "lineEnd": 9
+                    },
+                    "sym": "test/java/lsif/com/glean/app/App%23message"
+                }
+>>>>>>> 9c38c691 (Java/LSIF support for Glean and Glass)
+>>>>>>> 3de8c790 (Add support for SCIP-based indexers)
             ]
         }
     }

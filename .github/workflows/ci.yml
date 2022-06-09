@@ -58,6 +58,7 @@ jobs:
           curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
           apt-get install -y nodejs
           npm install -g @sourcegraph/lsif-tsc
+          npm install -g @sourcegraph/scip-typescript
 
       - name: Install indexer (go)
         run: |
@@ -87,6 +88,8 @@ jobs:
           export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/
           ./coursier bootstrap --standalone -o lsif-java com.sourcegraph:lsif-java_2.13:0.8.0-RC1 --main-class com.sourcegraph.lsif_java.LsifJava
           mkdir -p "$HOME"/.hsthrift/bin && cp lsif-java "$HOME"/.hsthrift/bin
+          ./coursier bootstrap --standalone -o scip-java com.sourcegraph:scip-java_2.13:0.8.0-RC2 --main-class com.sourcegraph.scip_java.ScipJava
+          mkdir -p "$HOME"/.hsthrift/bin && cp scip-java "$HOME"/.hsthrift/bin
 
       - name: Fetch hsthrift and build folly, fizz, wangle, fbthrift, rocksdb
         run: ./install_deps.sh

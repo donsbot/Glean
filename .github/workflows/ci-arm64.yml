@@ -54,6 +54,7 @@ jobs:
           tar -xvf "${NODEARCH}.tar.xz"
           cp -r "${NODEARCH}"/* "$HOME"/.hsthrift/
           npm install -g @sourcegraph/lsif-tsc
+          npm install -g @sourcegraph/scip-typescript
 
       - name: Install indexer (rust)
         run: |
@@ -69,6 +70,8 @@ jobs:
           apt-get install -y default-jdk maven
           curl -fLo coursier https://git.io/coursier-cli && chmod +x coursier
           export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-arm64/
+          ./coursier bootstrap --standalone -o lsif-java com.sourcegraph:lsif-java_2.13:0.8.0-RC1 --main-class com.sourcegraph.lsif_java.LsifJava
+          mkdir -p "$HOME"/.hsthrift/bin && cp lsif-java "$HOME"/.hsthrift/bin
           ./coursier bootstrap --standalone -o lsif-java com.sourcegraph:lsif-java_2.13:0.8.0-RC1 --main-class com.sourcegraph.lsif_java.LsifJava
           mkdir -p "$HOME"/.hsthrift/bin && cp lsif-java "$HOME"/.hsthrift/bin
 

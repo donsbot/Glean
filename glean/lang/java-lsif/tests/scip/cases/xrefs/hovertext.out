@@ -1,0 +1,10 @@
+[
+  "@generated",
+  { "key": " Hello world!\u000a" },
+  { "key": "```java\u000aString[] args\u000a```" },
+  { "key": "```java\u000aprivate final String getMessage()\u000a```" },
+  { "key": "```java\u000aprivate final String message\u000a```" },
+  { "key": "```java\u000apublic App()\u000a```" },
+  { "key": "```java\u000apublic class App\u000a```" },
+  { "key": "```java\u000apublic static void main(String[] args)\u000a```" }
+]

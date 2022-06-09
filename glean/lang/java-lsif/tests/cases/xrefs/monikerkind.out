@@ -57,7 +57,19 @@
           "ident": { "key": "com/glean/app/App#message" }
         }
       },
-      "kind": 5
+      "kind": 12
+    }
+  },
+  {
+    "key": {
+      "moniker": {
+        "key": {
+          "kind": 1,
+          "scheme": { "key": "semanticdb" },
+          "ident": { "key": "local0" }
+        }
+      },
+      "kind": 26
     }
   },
   {
@@ -105,7 +117,7 @@
           "ident": { "key": "java/lang/System#out" }
         }
       },
-      "kind": 5
+      "kind": 12
     }
   }
 ]

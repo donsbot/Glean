@@ -1,0 +1,30 @@
+[
+  "@generated",
+  { "key": { "nameLowerCase": "", "name": { "key": "" } } },
+  { "key": { "nameLowerCase": "app", "name": { "key": "App" } } },
+  {
+    "key": {
+      "nameLowerCase": "app#`<init>`()",
+      "name": { "key": "App#`<init>`()" }
+    }
+  },
+  {
+    "key": {
+      "nameLowerCase": "app#getmessage()",
+      "name": { "key": "App#getMessage()" }
+    }
+  },
+  { "key": { "nameLowerCase": "app#main()", "name": { "key": "App#main()" } } },
+  {
+    "key": { "nameLowerCase": "app#message", "name": { "key": "App#message" } }
+  },
+  {
+    "key": {
+      "nameLowerCase": "printstream#println(+8)",
+      "name": { "key": "PrintStream#println(+8)" }
+    }
+  },
+  { "key": { "nameLowerCase": "string", "name": { "key": "String" } } },
+  { "key": { "nameLowerCase": "system", "name": { "key": "System" } } },
+  { "key": { "nameLowerCase": "system#out", "name": { "key": "System#out" } } }
+]

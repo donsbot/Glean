@@ -1,0 +1,174 @@
+[
+  "@generated",
+  {
+    "key": {
+      "ident": { "key": "semanticdb maven . . com/glean/app/App#" },
+      "moniker": {
+        "key": {
+          "kind": 0,
+          "scheme": { "key": "semanticdb" },
+          "ident": { "key": "semanticdb maven . . com/glean/app/App#" }
+        }
+      },
+      "defn": {
+        "key": {
+          "file": {
+            "key": {
+              "file": { "key": "src/main/java/com/glean/app/App.java" },
+              "language": 22
+            }
+          },
+          "range": {
+            "key": {
+              "range": {
+                "lineBegin": 6,
+                "columnBegin": 14,
+                "lineEnd": 6,
+                "columnEnd": 16
+              },
+              "text": { "key": "App" }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "key": {
+      "ident": { "key": "semanticdb maven . . com/glean/app/App#`<init>`()." },
+      "moniker": {
+        "key": {
+          "kind": 0,
+          "scheme": { "key": "semanticdb" },
+          "ident": {
+            "key": "semanticdb maven . . com/glean/app/App#`<init>`()."
+          }
+        }
+      },
+      "defn": {
+        "key": {
+          "file": {
+            "key": {
+              "file": { "key": "src/main/java/com/glean/app/App.java" },
+              "language": 22
+            }
+          },
+          "range": {
+            "key": {
+              "range": {
+                "lineBegin": 11,
+                "columnBegin": 12,
+                "lineEnd": 11,
+                "columnEnd": 14
+              },
+              "text": { "key": "App#`<init>`()" }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "key": {
+      "ident": {
+        "key": "semanticdb maven . . com/glean/app/App#getMessage()."
+      },
+      "moniker": {
+        "key": {
+          "kind": 0,
+          "scheme": { "key": "semanticdb" },
+          "ident": {
+            "key": "semanticdb maven . . com/glean/app/App#getMessage()."
+          }
+        }
+      },
+      "defn": {
+        "key": {
+          "file": {
+            "key": {
+              "file": { "key": "src/main/java/com/glean/app/App.java" },
+              "language": 22
+            }
+          },
+          "range": {
+            "key": {
+              "range": {
+                "lineBegin": 17,
+                "columnBegin": 26,
+                "lineEnd": 17,
+                "columnEnd": 35
+              },
+              "text": { "key": "App#getMessage()" }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "key": {
+      "ident": { "key": "semanticdb maven . . com/glean/app/App#main()." },
+      "moniker": {
+        "key": {
+          "kind": 0,
+          "scheme": { "key": "semanticdb" },
+          "ident": { "key": "semanticdb maven . . com/glean/app/App#main()." }
+        }
+      },
+      "defn": {
+        "key": {
+          "file": {
+            "key": {
+              "file": { "key": "src/main/java/com/glean/app/App.java" },
+              "language": 22
+            }
+          },
+          "range": {
+            "key": {
+              "range": {
+                "lineBegin": 13,
+                "columnBegin": 24,
+                "lineEnd": 13,
+                "columnEnd": 27
+              },
+              "text": { "key": "App#main()" }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "key": {
+      "ident": { "key": "semanticdb maven . . com/glean/app/App#message." },
+      "moniker": {
+        "key": {
+          "kind": 0,
+          "scheme": { "key": "semanticdb" },
+          "ident": { "key": "semanticdb maven . . com/glean/app/App#message." }
+        }
+      },
+      "defn": {
+        "key": {
+          "file": {
+            "key": {
+              "file": { "key": "src/main/java/com/glean/app/App.java" },
+              "language": 22
+            }
+          },
+          "range": {
+            "key": {
+              "range": {
+                "lineBegin": 9,
+                "columnBegin": 26,
+                "lineEnd": 9,
+                "columnEnd": 32
+              },
+              "text": { "key": "App#message" }
+            }
+          }
+        }
+      }
+    }
+  }
+]
