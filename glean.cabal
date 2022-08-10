@@ -827,6 +827,7 @@ executable gen-schema
         Glean.Schema.Gen.Utils,
         Glean.Schema.Gen.Cpp,
         Glean.Schema.Gen.Haskell,
+	Glean.Schema.Gen.Python,
         Glean.Schema.Gen.Thrift
     build-depends:
         glean:core,
