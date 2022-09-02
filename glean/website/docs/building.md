@@ -21,7 +21,9 @@ that are needed for building Glean.
 
 * [GHC](https://www.haskell.org/ghc/). To see which versions Glean is tested with, check the current [ci.yml](https://github.com/facebookincubator/Glean/blob/master/.github/workflows/ci.yml) script.
 
-* Cabal/cabal-install version 3.6 or later (older versions won't work).
+* Cabal/cabal-install version 3.8 or later (older versions won't work).
+
+* We test with gcc and clang, though clang-11 or clang-12 are increasingly preferred.
 
 Additional per-distribution setup follows.
 
@@ -30,7 +32,8 @@ Additional per-distribution setup follows.
 Install prerequisite packages. (many of these are dependencies of
 hsthrift; an up to date list can be found in the
 [Dockerfile](https://github.com/facebookincubator/hsthrift/blob/master/.github/workflows/Dockerfile)
-that we use for building the base image for CI).
+that we use for building the base image for CI). Note: to index specific languages
+additional tools are needed, see the indexer pages for their requirements.
 
 ```
 sudo apt-get install \
@@ -156,4 +159,4 @@ On an 6 core machine with 16G of ram you might use, to save 50% or more of the b
 make EXTRA_GHC_OPTS='-j4 +RTS -A128m -n2m -RTS'
 ```
 
-Using clang++-12 and clang-12 as the C and C++ compilers can shave another 25% off the build time, though is less well tested.
+Using clang++-12 and clang-12 as the C and C++ compilers can shave another 25% off the build time.
