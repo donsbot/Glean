@@ -19,7 +19,7 @@ that are needed for building Glean.
 * Linux. The build is only tested on Linux so far; we hope to add
   support for other OSs in the future. We build on x86\_64 and arm64v8.
 
-* [GHC](https://www.haskell.org/ghc/). To see which versions Glean is tested with, check the current [ci.yml](https://github.com/facebookincubator/Glean/blob/master/.github/workflows/ci.yml) script. NOTE: we only suppor the GHC 8 series currently. Glean will not build with GHC 9.
+* [GHC](https://www.haskell.org/ghc/). To see which versions Glean is tested with, check the current [ci.yml](https://github.com/facebookincubator/Glean/blob/master/.github/workflows/ci.yml) script.
 
 * Cabal/cabal-install version 3.6 or later (older versions won't work).
 
