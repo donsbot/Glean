@@ -29,9 +29,9 @@ RUN cp $(cabal exec --project-file=cabal.project -- which glean) ~/.cabal/bin/
 RUN cp $(cabal exec --project-file=cabal.project -- which glean-server) ~/.cabal/bin/
 RUN cp $(cabal exec --project-file=cabal.project -- which glean-hyperlink) ~/.cabal/bin/
 RUN glean --help
-RUN wget https://github.com/facebook/flow/releases/download/v0.219.0/flow-linux64-v0.219.0.zip
-RUN unzip flow-linux64-v0.219.0.zip
-RUN mkdir -p /root/.hsthrift/bin && mv flow/flow /root/.hsthrift/bin/ && rm -rf flow-linux64-v0.219.0.zip flow/
+RUN wget https://github.com/facebook/flow/releases/download/v0.222.0/flow-linux64-v0.222.0.zip
+RUN unzip flow-linux64-v0.222.0.zip
+RUN mkdir -p /root/.hsthrift/bin && mv flow/flow /root/.hsthrift/bin/ && rm -rf flow-linux64-v0.222.0.zip flow/
 WORKDIR /
 RUN git clone https://github.com/facebook/react.git --depth 1 react-code
 RUN cat /react-code/scripts/flow/config/flowconfig \
