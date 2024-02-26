@@ -12,17 +12,21 @@ The `glean` tool accepts all the [common
 options](./running.md#common-options) to specify how to connect to access
 the databases.
 
-:::note
-
-The `--db` flag used to be called `--repo`, `--db-name` used to be
-`--repo-name`, and `--db-instance` used to be `--repo-hash`. The
-terminology was changed because databases don't necessarily correspond
-to repositories, and the instance doesn't necessarily correspond to a
-hash or revision of a repository.
-
-:::
-
 The available commands are as follows:
+
+### `glean list`
+
+List the available databases.
+
+* `[DBNAME]` <br />
+List only databases that match `DBNAME`
+* `--format (tty|plain|json|compact-json)` <br />
+Various different formats for the output. JSON is useful for
+processing and filtering the result in a script, e.g. using `jq`.
+* `-v` / `--verbose` <br />
+Show the full metadata associated with each database.
+* `--include-backups` <br />
+Also list databases in backup storage (note: may be slow).
 
 ### `glean create`
 
@@ -143,7 +147,7 @@ Maximum number of facts per page
 Fetch nested facts (slower)
 
 * `--limit FACTS`<br />
-Maximum number of facts to query
+Maximum number of facts to query (default: no limit)
 
 * `-o,--output FILE`<br />
 Output the facts to a file
